@@ -44,6 +44,9 @@ a{
 
     }
 
+
+// INSERT PHOTOS HERE
+
     .cover{
         background-image: url(images/bookpage.jpg);
     }
@@ -79,7 +82,6 @@ a{
     }
 
 }
-
 .fixed{
     position: fixed;
     // margin-right: 25px;
@@ -93,7 +95,6 @@ a{
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     &:hover{
-          //
     }
     a{
         font-family: helvetica;
