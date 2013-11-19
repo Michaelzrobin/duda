@@ -2542,6 +2542,16 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
 .link-spanner {
   position: absolute;
   top: 0;
@@ -2551,7 +2561,8 @@ input[type="button"].btn-block {
 }
 
 .photos {
-  border: 1px solid black;
+  width: 100%;
+  margin-left: 65px;
 }
 .photos:first-child {
   padding-top: 0px;
@@ -2564,10 +2575,10 @@ input[type="button"].btn-block {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  padding-top: 80%;
+  padding-top: 105%;
   margin-right: 20px;
   background: no-repeat fixed;
-  background-position: 290px 20px;
+  background-position: 320px 0px;
   background-size: contain;
 }
 .photos .cover {
@@ -2578,6 +2589,7 @@ input[type="button"].btn-block {
 }
 .photos .page2 {
   background-image: url(images/bookpage02.jpg);
+  background-position: 330px 0px;
 }
 .photos .page3 {
   background-image: url(images/bookpage03.jpg);
@@ -2593,14 +2605,17 @@ input[type="button"].btn-block {
 }
 .photos .page7 {
   background-image: url(images/bookpage07.jpg);
+  background-position: 335px -10px;
 }
 .photos .page8 {
   background-image: url(images/bookpage08.jpg);
+  background-position: 335px 0px;
 }
 
 .fixed {
   position: fixed;
   top: 90px;
+  margin-left: -5px;
   z-index: 1;
   background-color: none;
   -webkit-transform: rotate(90deg);
@@ -2608,4 +2623,13 @@ input[type="button"].btn-block {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+}
+.fixed a {
+  font-family: helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.fixed a:hover {
+  text-decoration: none;
 }
