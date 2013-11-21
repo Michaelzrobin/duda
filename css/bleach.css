@@ -1,0 +1,27 @@
+.photos div {
+  background-size: 60%;
+}
+.photos .cover {
+  background-image: url(../images/bleach/bleach.jpg);
+  background-position: 395px 40px;
+}
+.photos .page1 {
+  background-image: url(../images/bleach/bleach02.jpg);
+  background-position: 395px 40px;
+}
+.photos .page2 {
+  background-image: url(../images/bleach/bleach03.jpg);
+  background-position: 395px 35px;
+}
+.photos .page3 {
+  background-image: url(../images/bleach/bleach04.jpg);
+  background-position: 395px 40px;
+}
+.photos .page4 {
+  background-image: url(../images/bleach/bleach05.jpg);
+  background-position: 395px 20px;
+}
+.photos .page5 {
+  background-image: url(../images/bleach/bleach06.jpg);
+  background-position: 395px 40px;
+}

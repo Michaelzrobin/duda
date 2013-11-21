@@ -1,0 +1,45 @@
+// AUDIO
+
+
+
+// INSERT PHOTOS HERE
+.photos{
+    // border: 1px solid red;
+
+    div{
+        // border:1px solid blue;
+        background-size: 60%;
+    }
+
+    .cover{
+        background-image: url(../images/bleach/bleach.jpg);
+        background-position: 395px 40px;
+
+    }
+    .page1{
+        background-image: url(../images/bleach/bleach02.jpg);
+        background-position: 395px 40px;
+
+
+    }
+    .page2{
+        background-image: url(../images/bleach/bleach03.jpg);
+        background-position: 395px 35px;
+
+    }
+    .page3{
+        background-image: url(../images/bleach/bleach04.jpg);
+        background-position: 395px 40px;
+
+    }
+    .page4{
+        background-image: url(../images/bleach/bleach05.jpg);
+        background-position: 395px 20px;
+
+    }
+    .page5{
+        background-image: url(../images/bleach/bleach06.jpg);
+        background-position: 395px 40px;
+
+    }
+}

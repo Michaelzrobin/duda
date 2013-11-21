@@ -1,0 +1,79 @@
+
+// SALMON
+body{
+    position:relative;
+}
+.play-div{
+    font-family:"Compact Sans Serifs",tahoma,verdana,arial,sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.1em;
+    position:fixed;
+    top:5;
+    left: 382;
+    width: 838px;
+    z-index: 99999;
+    .play-button:active{
+        color: grey;
+    }
+}
+
+
+
+
+// INSERT PHOTOS HERE
+.photos{
+    // border: 1px solid red;
+    div{
+        // border:1px solid blue;
+        background-size: 65%;
+
+    }
+
+    .cover{
+        background-image: url(../images/salmon/salmon.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page1{
+        background-image: url(../images/salmon/salmon02.jpg);
+        background-position: 385px 60px;
+
+
+    }
+    .page2{
+        background-image: url(../images/salmon/salmon03.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page3{
+        background-image: url(../images/salmon/salmon04.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page4{
+        background-image: url(../images/salmon/salmon05.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page5{
+        background-image: url(../images/salmon/salmon06.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page6{
+        background-image: url(../images/salmon/salmon07.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page7{
+        background-image: url(../images/salmon/salmon08.jpg);
+        background-position: 385px 60px;
+
+    }
+    .page8{
+        background-image: url(../images/salmon/salmon09.jpg);
+        background-position: 385px 60px;
+
+    }
+}
