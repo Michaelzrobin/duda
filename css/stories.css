@@ -2675,8 +2675,15 @@ a:hover {
   opacity: 0;
   transition: 1s ease-in;
 }
+.project-description h2 {
+  opacity: .6;
+  transition: .7s linear;
+}
+.project-description h2:hover {
+  opacity: 0.9;
+}
 .project-description h2:hover + p {
-  opacity: 1;
+  opacity: .9;
 }
 
 .fbsection2 .project-description {

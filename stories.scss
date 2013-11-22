@@ -178,8 +178,13 @@ a{
         transition: 1s ease-in;
     }
     h2{
+    opacity: .6;
+    transition: .7s linear;
+        &:hover{
+        opacity: .9
+        }
         &:hover + p{
-        opacity: 1;
+        opacity: .9;
         }
     }
 }
