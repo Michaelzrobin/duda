@@ -2633,36 +2633,6 @@ a:hover {
   background-position: 320px 0px;
   background-size: contain;
 }
-.photos .cover {
-  background-image: url(../images/bookpage.jpg);
-}
-.photos .page1 {
-  background-image: url(../images/bookpage01.jpg);
-}
-.photos .page2 {
-  background-image: url(../images/bookpage02.jpg);
-  background-position: 330px 0px;
-}
-.photos .page3 {
-  background-image: url(../images/bookpage03.jpg);
-}
-.photos .page4 {
-  background-image: url(../images/bookpage04.jpg);
-}
-.photos .page5 {
-  background-image: url(../images/bookpage05.jpg);
-}
-.photos .page6 {
-  background-image: url(../images/bookpage06.jpg);
-}
-.photos .page7 {
-  background-image: url(../images/bookpage07.jpg);
-  background-position: 335px -10px;
-}
-.photos .page8 {
-  background-image: url(../images/bookpage08.jpg);
-  background-position: 335px 0px;
-}
 
 .helper-arrow {
   display: block;
@@ -2672,7 +2642,7 @@ a:hover {
   opacity: .3;
   position: absolute;
   right: 16px;
-  bottom: -5px;
+  bottom: 0px;
   transition-property: opacity, bottom;
   transition-duration: .4s, .3s;
   transition-timing-function: linear;
@@ -2688,6 +2658,7 @@ a:hover {
   color: white;
   position: relative;
   width: 15%;
+  min-width: 150px;
   top: 45%;
   height: 100px;
   left: 20%;
@@ -2777,18 +2748,19 @@ a:hover {
 }
 
 #fbsection1 {
+  background-size: cover;
   height: 100%;
   background-image: url(../images/bleach/bleach.jpg);
 }
 
 #fbsection2 {
+  background-size: cover;
   height: 100%;
-  background-image: url(../images/salmon/salmon.jpg);
+  background-image: url(../images/optimized/salmon.jpg);
 }
 
 #fbsection3 {
   height: 100%;
-  background-size: 225%;
-  background-position: 14% 14%;
-  background-image: url(../images/bookpage01.jpg);
+  background-size: cover;
+  background-image: url(../images/optimized/previews/buddy-preview.jpg);
 }

@@ -5,6 +5,14 @@
 //
 // HELPER ARROW
 //
+
+.arrow-container{
+    position: relative;
+    height: 100%;
+    float: right;
+    width: 25%;
+
+}
 .helper-arrow{
     display: block;
     font-size: 110px;
@@ -12,15 +20,15 @@
     color: black;
     opacity: .3;
     position: absolute;
-    right: 50;
-    bottom: 51%;
+    right: 40;
+    bottom: 35;
     z-index: 1;
     transition-property: opacity, bottom;
     transition-duration: .4s, .3s;
     transition-timing-function: linear, ease-in;
     &:hover{
         opacity: .6;
-        bottom: 50.7%;
+        bottom: 25;
         cursor: pointer;
     }
 }
@@ -60,9 +68,6 @@ a{
     // margin-right: 25px;
     top: 90px;
     margin-left: -5px;
-
-    opacity: .6;
-    transition: .3s linear;
     z-index: 1;
     background-color: none;
     -webkit-transform: rotate(90deg);
@@ -70,16 +75,21 @@ a{
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    &:hover{
-    }
     a{
         font-family: helvetica;
         font-weight: bold;
         text-decoration: none;
         color: black;
-        opacity: .8;
+        opacity: .6;
+        transition: .1s linear;
         &:hover{
+            a{
+            font-family: helvetica;
+            font-weight: bold;
             text-decoration: none;
+            color: black;
+            opacity: .8;
+            }
         }
     }
 }
@@ -136,6 +146,7 @@ a{
         margin-right:20px;
         background:no-repeat fixed;
         background-position: 320px 0px;
+        // background-height: 100%;
         background-size: contain;
         //  &:nth-child(2n){
         //     background-color: F7F7F7;
@@ -147,31 +158,31 @@ a{
 // INSERT PHOTOS HERE
 
     .cover{
-        background-image: url(../images/bookpage.jpg);
+        background-image: url(../images/optimized/buddy.jpg);
     }
     .page1{
-        background-image: url(../images/bookpage01.jpg);
+        background-image: url(../images/optimized/buddy01.jpg);
 
     }
     .page2{
-        background-image: url(../images/bookpage02.jpg);
+        background-image: url(../images/optimized/buddy02.jpg);
         background-position: 330px 0px;
 
     }
     .page3{
-        background-image: url(../images/bookpage03.jpg);
+        background-image: url(../images/optimized/buddy03.jpg);
     }
     .page4{
-        background-image: url(../images/bookpage04.jpg);
+        background-image: url(../images/optimized/buddy04.jpg);
     }
     .page5{
-        background-image: url(../images/bookpage05.jpg);
+        background-image: url(../images/optimized/buddy05.jpg);
     }
     .page6{
-        background-image: url(../images/bookpage06.jpg);
+        background-image: url(../images/optimized/buddy06.jpg);
     }
     .page7{
-        background-image: url(../images/bookpage07.jpg);
+        background-image: url(../images/optimized/buddy07.jpg);
         background-position: 335px -10px;
 }
     .page8{

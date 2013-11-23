@@ -1,3 +1,14 @@
+html {
+  height: 100%;
+}
+
+.arrow-container {
+  position: relative;
+  height: 100%;
+  float: right;
+  width: 25%;
+}
+
 .helper-arrow {
   display: block;
   font-size: 110px;
@@ -6,7 +17,7 @@
   opacity: .3;
   position: absolute;
   right: 5px;
-  bottom: 53.7%;
+  bottom: 52;
   z-index: 1;
   transition-property: opacity, bottom;
   transition-duration: .4s, .3s;
@@ -14,7 +25,7 @@
 }
 .helper-arrow:hover {
   opacity: .6;
-  bottom: 53%;
+  bottom: 42;
   cursor: pointer;
 }
 
@@ -42,38 +53,38 @@ body {
 }
 .photos .cover {
   position: relative;
-  background-image: url(../images/salmon/salmon.jpg);
+  background-image: url(../images/optimized/salmon.jpg);
   background-position: 385px 60px;
 }
 .photos .page1 {
-  background-image: url(../images/salmon/salmon02.jpg);
+  background-image: url(../images/optimized/salmon02.jpg);
   background-position: 385px 60px;
 }
 .photos .page2 {
-  background-image: url(../images/salmon/salmon03.jpg);
+  background-image: url(../images/optimized/salmon03.jpg);
   background-position: 385px 60px;
 }
 .photos .page3 {
-  background-image: url(../images/salmon/salmon04.jpg);
+  background-image: url(../images/optimized/salmon04.jpg);
   background-position: 385px 60px;
 }
 .photos .page4 {
-  background-image: url(../images/salmon/salmon05.jpg);
+  background-image: url(../images/optimized/salmon05.jpg);
   background-position: 385px 60px;
 }
 .photos .page5 {
-  background-image: url(../images/salmon/salmon06.jpg);
+  background-image: url(../images/optimized/salmon06.jpg);
   background-position: 385px 60px;
 }
 .photos .page6 {
-  background-image: url(../images/salmon/salmon07.jpg);
+  background-image: url(../images/optimized/salmon07.jpg);
   background-position: 385px 60px;
 }
 .photos .page7 {
-  background-image: url(../images/salmon/salmon08.jpg);
+  background-image: url(../images/optimized/salmon08.jpg);
   background-position: 385px 60px;
 }
 .photos .page8 {
-  background-image: url(../images/salmon/salmon09.jpg);
+  background-image: url(../images/optimized/salmon09.jpg);
   background-position: 385px 60px;
 }

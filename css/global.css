@@ -2542,6 +2542,13 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.arrow-container {
+  position: relative;
+  height: 100%;
+  float: right;
+  width: 25%;
+}
+
 .helper-arrow {
   display: block;
   font-size: 110px;
@@ -2549,8 +2556,8 @@ input[type="button"].btn-block {
   color: black;
   opacity: .3;
   position: absolute;
-  right: 50;
-  bottom: 51%;
+  right: 40;
+  bottom: 35;
   z-index: 1;
   transition-property: opacity, bottom;
   transition-duration: .4s, .3s;
@@ -2558,7 +2565,7 @@ input[type="button"].btn-block {
 }
 .helper-arrow:hover {
   opacity: .6;
-  bottom: 50.7%;
+  bottom: 25;
   cursor: pointer;
 }
 
@@ -2588,8 +2595,6 @@ a:hover {
   position: fixed;
   top: 90px;
   margin-left: -5px;
-  opacity: .6;
-  transition: .3s linear;
   z-index: 1;
   background-color: none;
   -webkit-transform: rotate(90deg);
@@ -2603,10 +2608,15 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
   color: black;
-  opacity: .8;
+  opacity: .6;
+  transition: .1s linear;
 }
-.fixed a:hover {
+.fixed a:hover a {
+  font-family: helvetica;
+  font-weight: bold;
   text-decoration: none;
+  color: black;
+  opacity: .8;
 }
 
 .stories-grid {
@@ -2649,29 +2659,29 @@ a:hover {
   background-size: contain;
 }
 .photos .cover {
-  background-image: url(../images/bookpage.jpg);
+  background-image: url(../images/optimized/buddy.jpg);
 }
 .photos .page1 {
-  background-image: url(../images/bookpage01.jpg);
+  background-image: url(../images/optimized/buddy01.jpg);
 }
 .photos .page2 {
-  background-image: url(../images/bookpage02.jpg);
+  background-image: url(../images/optimized/buddy02.jpg);
   background-position: 330px 0px;
 }
 .photos .page3 {
-  background-image: url(../images/bookpage03.jpg);
+  background-image: url(../images/optimized/buddy03.jpg);
 }
 .photos .page4 {
-  background-image: url(../images/bookpage04.jpg);
+  background-image: url(../images/optimized/buddy04.jpg);
 }
 .photos .page5 {
-  background-image: url(../images/bookpage05.jpg);
+  background-image: url(../images/optimized/buddy05.jpg);
 }
 .photos .page6 {
-  background-image: url(../images/bookpage06.jpg);
+  background-image: url(../images/optimized/buddy06.jpg);
 }
 .photos .page7 {
-  background-image: url(../images/bookpage07.jpg);
+  background-image: url(../images/optimized/buddy07.jpg);
   background-position: 335px -10px;
 }
 .photos .page8 {
