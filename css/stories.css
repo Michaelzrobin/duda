@@ -2584,10 +2584,13 @@ a:hover {
   font-family: helvetica;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: white;
+  opacity: .6;
+  transition: .7s linear;
 }
 .fixed a:hover {
   text-decoration: none;
+  opacity: 0.9;
 }
 
 .stories-grid {
@@ -2661,6 +2664,25 @@ a:hover {
   background-position: 335px 0px;
 }
 
+.helper-arrow {
+  display: block;
+  font-size: 110px;
+  font-weight: bold;
+  color: white;
+  opacity: .3;
+  position: absolute;
+  right: 16px;
+  bottom: -5px;
+  transition-property: opacity, bottom;
+  transition-duration: .4s, .3s;
+  transition-timing-function: linear;
+}
+.helper-arrow:hover {
+  opacity: .6;
+  color: white;
+  bottom: -12px;
+}
+
 .project-description {
   font-size: 14px;
   color: white;
@@ -2679,11 +2701,20 @@ a:hover {
   opacity: .6;
   transition: .7s linear;
 }
+.project-description h2 .hide-on-hover {
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle;
+  transition: .7s;
+}
 .project-description h2:hover {
   opacity: 0.9;
 }
 .project-description h2:hover + p {
   opacity: .9;
+}
+.project-description h2:hover .hide-on-hover {
+  opacity: 0;
 }
 
 .fbsection2 .project-description {

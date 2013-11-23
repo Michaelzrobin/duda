@@ -1,45 +1,80 @@
 // AUDIO
 
 
+//
+// helper-arrow to guide user to scroll
+// need js scroll easing script
+//
+.helper-arrow{
+    display: block;
+    font-size: 110px;
+    font-weight: bold;
+    color: black;
+    opacity: .3;
+    position: absolute;
+    right: 33px;
+    bottom: 51.9%;
+    z-index: 1;
+    transition-property: opacity, bottom;
+    transition-duration: .4s, .3s;
+    transition-timing-function: linear, ease-in;
+    &:hover{
+        opacity: .6;
+        bottom: 51.2%;
+        cursor: pointer;
+    }
+}
+
+
+
 
 // INSERT PHOTOS HERE
 .photos{
+    // position:relative;
     // border: 1px solid red;
 
     div{
         // border:1px solid blue;
         background-size: 60%;
+        // position: relative;
     }
 
     .cover{
         background-image: url(../images/bleach/bleach.jpg);
         background-position: 395px 40px;
+        position: relative;
+
 
     }
     .page1{
         background-image: url(../images/bleach/bleach02.jpg);
         background-position: 395px 40px;
+        // position: relative;
 
 
     }
     .page2{
         background-image: url(../images/bleach/bleach03.jpg);
         background-position: 395px 35px;
+        // position: relative;
 
     }
     .page3{
         background-image: url(../images/bleach/bleach04.jpg);
         background-position: 395px 40px;
+        // position: relative;
 
     }
     .page4{
         background-image: url(../images/bleach/bleach05.jpg);
         background-position: 395px 20px;
+        // position: relative;
 
     }
     .page5{
         background-image: url(../images/bleach/bleach06.jpg);
         background-position: 395px 40px;
+        // position: relative;
 
     }
 }

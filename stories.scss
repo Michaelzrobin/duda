@@ -55,9 +55,12 @@ a{
         font-family: helvetica;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: white;
+        opacity: .6;
+        transition: .7s linear;
         &:hover{
             text-decoration: none;
+            opacity: .9
         }
     }
 }
@@ -164,6 +167,29 @@ a{
 // DESCRITPIONS
 //
 
+//
+// helper-arrow to guide user to scroll
+// need js scroll easing script
+//
+.helper-arrow{
+    display: block;
+    font-size: 110px;
+    font-weight: bold;
+    color: white;
+    opacity: .3;
+    position: absolute;
+    right: 16px;
+    bottom: -5px;
+    transition-property: opacity, bottom;
+    transition-duration: .4s, .3s;
+    transition-timing-function: linear;
+    &:hover{
+        opacity: .6;
+        color:white;
+        bottom: -12px;
+    }
+}
+
 .project-description{
     font-size:14px;
     color:white;
@@ -180,12 +206,35 @@ a{
     h2{
     opacity: .6;
     transition: .7s linear;
+        .hide-on-hover{
+        font-size:15px;
+        padding-left: 10px;
+        vertical-align:middle;
+        transition: .7s;
+
+        }
         &:hover{
         opacity: .9
+
         }
         &:hover + p{
         opacity: .9;
         }
+        &:hover .hide-on-hover{
+        opacity: 0;
+        // display: none
+        // ^fade out or replace?
+        }
+        //
+        // REPLACE RIGHT ARROW
+        // WITH DOWN ARROW?
+        //
+        // &:hover:after{
+        //     content: "▼";
+        //     font-size:16px;
+        //     padding-left: 10px;
+        //     vertical-align:middle;
+        // }
     }
 }
 

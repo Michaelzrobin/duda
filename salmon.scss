@@ -1,4 +1,22 @@
-
+.helper-arrow{
+    display: block;
+    font-size: 110px;
+    font-weight: bold;
+    color: black;
+    opacity: .3;
+    position: absolute;
+    right: 5px;
+    bottom: 53.7%;
+    z-index: 1;
+    transition-property: opacity, bottom;
+    transition-duration: .4s, .3s;
+    transition-timing-function: linear, ease-in;
+    &:hover{
+        opacity: .6;
+        bottom: 53%;
+        cursor: pointer;
+    }
+}
 // SALMON
 body{
     position:relative;
@@ -31,6 +49,7 @@ body{
     }
 
     .cover{
+        position: relative;
         background-image: url(../images/salmon/salmon.jpg);
         background-position: 385px 60px;
 

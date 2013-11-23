@@ -1,9 +1,30 @@
+.helper-arrow {
+  display: block;
+  font-size: 110px;
+  font-weight: bold;
+  color: black;
+  opacity: .3;
+  position: absolute;
+  right: 33px;
+  bottom: 51.9%;
+  z-index: 1;
+  transition-property: opacity, bottom;
+  transition-duration: .4s, .3s;
+  transition-timing-function: linear, ease-in;
+}
+.helper-arrow:hover {
+  opacity: .6;
+  bottom: 51.2%;
+  cursor: pointer;
+}
+
 .photos div {
   background-size: 60%;
 }
 .photos .cover {
   background-image: url(../images/bleach/bleach.jpg);
   background-position: 395px 40px;
+  position: relative;
 }
 .photos .page1 {
   background-image: url(../images/bleach/bleach02.jpg);
