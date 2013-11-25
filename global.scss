@@ -1,42 +1,12 @@
 @import 'reset';
+@import '_jquery.sidr.light';
 @import 'bootstrap';
-
-
-//
-// HELPER ARROW
-//
-
-.arrow-container{
-    position: relative;
+html, body{
     height: 100%;
-    float: right;
-    width: 25%;
-
 }
-.helper-arrow{
-    display: block;
-    font-size: 110px;
-    font-weight: bold;
-    color: black;
-    opacity: .3;
-    position: absolute;
-    right: 40;
-    bottom: 35;
-    z-index: 1;
-    transition-property: opacity, bottom;
-    transition-duration: .4s, .3s;
-    transition-timing-function: linear, ease-in;
-    &:hover{
-        opacity: .6;
-        bottom: 25;
-        cursor: pointer;
-    }
-}
-
-
-//
-// GLOBAL
-//
+//        //
+// GLOBAL //
+//        //
 
 a{
     text-decoration: none;
@@ -47,6 +17,17 @@ a{
         cursor: pointer;
     }
 }
+
+
+
+//                //
+// HELPER CLASSES //
+//                //
+
+.hidden{
+    display: none;
+}
+
 .link-spanner{
     position: absolute;
     top:0;
@@ -55,13 +36,10 @@ a{
     height:100%;
 }
 
-.hidden{
-    display: none;
-}
 
-//
-// SIDEBAR
-//
+//         //
+// SIDEBAR //
+//         //
 
 .fixed{
     position: fixed;
@@ -81,47 +59,26 @@ a{
         text-decoration: none;
         color: black;
         opacity: .6;
-        transition: .1s linear;
+        transition: .5s;
         &:hover{
-            a{
             font-family: helvetica;
             font-weight: bold;
             text-decoration: none;
             color: black;
-            opacity: .8;
-            }
+            opacity: .7;
         }
     }
 }
 
 
-//
-// STORIES
-//
-.stories-grid{
-    width:100%;
-    margin: 0 auto;
-
-    position: relative;
-    .stories{
-        margin-right: 10px;
-        margin-left: 0px;
-        img{
-            float: left;
-            width: 100%;
-            height: auto;
-        }
-        &:nth-child(2n){
-        margin-right: 0;
-        margin-left: 10px;
-        }
-    }
-}
 
 
-//
+//      //
+// BODY //
+//      //
+
+
 // PHOTOS
-//
 
 .photos{
     // border: 1px solid red;
@@ -191,6 +148,37 @@ a{
 
     }
 
+}
+
+// DOWN ARROW
+
+
+.arrow-container{
+    position: relative;
+    height: 100%;
+    float: right;
+    width: 25%;
+
+}
+.helper-arrow{
+    clear: both;
+    display: block;
+    font-size: 110px;
+    font-weight: bold;
+    color: black;
+    opacity: .3;
+    position: absolute;
+    right: 40;
+    bottom: 35;
+    z-index: 1;
+    transition-property: opacity, bottom;
+    transition-duration: .4s, .3s;
+    transition-timing-function: linear, ease-in;
+    &:hover{
+        opacity: .6;
+        bottom: 25;
+        cursor: pointer;
+    }
 }
 
 

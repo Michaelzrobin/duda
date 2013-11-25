@@ -1,4 +1,4 @@
-html {
+html, body {
   height: 100%;
 }
 
@@ -10,7 +10,6 @@ html {
 }
 
 .helper-arrow {
-  clear: both;
   display: block;
   font-size: 110px;
   font-weight: bold;
@@ -18,7 +17,7 @@ html {
   opacity: .3;
   position: absolute;
   right: 33px;
-  bottom: 33px;
+  bottom: 29px;
   z-index: 1;
   transition-property: opacity, bottom;
   transition-duration: .4s, .3s;
@@ -31,6 +30,7 @@ html {
 }
 
 .photos div {
+  width: 100%;
   background-size: 60%;
   height: 100%;
 }

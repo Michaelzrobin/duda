@@ -2556,101 +2556,23 @@ a:hover {
   cursor: pointer;
 }
 
-.link-spanner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.sidr {
+  margin-right: 20px;
 }
 
-.hidden {
-  display: none;
-}
-
-.fixed {
-  position: fixed;
-  top: 90px;
-  margin-left: -5px;
-  z-index: 1;
-  background-color: none;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
 .fixed a {
-  font-family: helvetica;
-  font-weight: bold;
-  text-decoration: none;
   color: white;
-  opacity: .6;
-  transition: .7s linear;
 }
 .fixed a:hover {
-  text-decoration: none;
-  opacity: 0.9;
-}
-
-.stories-grid {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-.stories-grid .stories {
-  margin-right: 10px;
-  margin-left: 0px;
-}
-.stories-grid .stories img {
-  float: left;
-  width: 100%;
-  height: auto;
-}
-.stories-grid .stories:nth-child(2n) {
-  margin-right: 0;
-  margin-left: 10px;
-}
-
-.photos {
-  width: 100%;
-  margin-left: 65px;
-}
-.photos:first-child {
-  padding-top: 0px;
-}
-.photos:last-child {
-  padding-bottom: 0px;
-}
-.photos div {
-  position: relative;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  padding-top: 105%;
-  margin-right: 20px;
-  background: no-repeat fixed;
-  background-position: 320px 0px;
-  background-size: contain;
-}
-
-.helper-arrow {
-  display: block;
-  font-size: 110px;
-  font-weight: bold;
   color: white;
-  opacity: .3;
-  position: absolute;
-  right: 16px;
-  bottom: 0px;
-  transition-property: opacity, bottom;
-  transition-duration: .4s, .3s;
-  transition-timing-function: linear;
 }
-.helper-arrow:hover {
-  opacity: .6;
+
+.project-title {
+  font-size: 50px;
   color: white;
-  bottom: -12px;
+  margin: 0 0 0 0;
+  position: relative;
+  text-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.3);
 }
 
 .project-description {
@@ -2698,43 +2620,6 @@ a:hover {
   left: 10%;
 }
 
-.project-title {
-  font-size: 50px;
-  color: white;
-  margin: 0 0 0 0;
-  position: relative;
-  text-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.3);
-}
-
-.cbp-fbscroller > nav {
-  position: fixed;
-  z-index: 9999;
-  right: 100px;
-  top: 50%;
-  width: 26px;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.cbp-fbscroller > nav a {
-  display: block;
-  position: relative;
-  z-index: 9999;
-  color: transparent;
-  width: 26px;
-  height: 26px;
-  outline: none;
-  margin: 25px 0;
-  border-radius: 50%;
-  border: 4px solid #fff;
-}
-
-.cbp-fbscroller > nav a:hover {
-  background: rgba(255, 255, 255, 0.6);
-}
-
 .stories-photos {
   height: 100%;
   position: relative;
@@ -2764,4 +2649,14 @@ a:hover {
   height: 100%;
   background-size: cover;
   background-image: url(../images/optimized/previews/buddy-preview.jpg);
+}
+
+.helper-arrow {
+  right: 16px;
+  bottom: 0px;
+  color: white;
+}
+.helper-arrow:hover {
+  color: white;
+  bottom: -12px;
 }

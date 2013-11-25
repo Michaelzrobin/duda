@@ -5,9 +5,9 @@ html, body{
 @import 'reset';
 @import 'bootstrap';
 
-//
-// GLOBAL
-//
+//          //
+//  GLOBAL  //
+//          //
 
 
 a{
@@ -20,173 +20,42 @@ a{
     }
 }
 
+//                 //
+//  HELPER CLASSES //
+//                 //
 
-.link-spanner{
-    position: absolute;
-    top:0;
-    left: 0;
-    width:100%;
-    height:100%;
+
+//           //
+//  SIDEBAR  //
+//           //
+
+.sidr{
+    margin-right:20px;
 }
-
-.hidden{
-    display: none;
-}
-
-//
-// SIDEBAR
-//
 
 .fixed{
-    position: fixed;
-    // margin-right: 25px;
-    top: 90px;
-    margin-left: -5px;
-    z-index: 1;
-    background-color: none;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    &:hover{
-    }
     a{
-        font-family: helvetica;
-        font-weight: bold;
-        text-decoration: none;
         color: white;
-        opacity: .6;
-        transition: .7s linear;
         &:hover{
-            text-decoration: none;
-            opacity: .9
+            color: white;
         }
     }
 }
 
 
-//
-// STORIES
-//
-.stories-grid{
-    width:100%;
-    margin: 0 auto;
 
-    position: relative;
-    .stories{
-        margin-right: 10px;
-        margin-left: 0px;
-        img{
-            float: left;
-            width: 100%;
-            height: auto;
-        }
-        &:nth-child(2n){
-        margin-right: 0;
-        margin-left: 10px;
-        }
-    }
-}
+//      //
+// BODY //
+//      //
 
+// DESCRIPTIONS
 
-//
-// PHOTOS
-//
-
-.photos{
-    // border: 1px solid red;
-    width: 100%;
-    margin-left: 65px;
-    // margin-left: 355px;
-    // border: 1px solid red;
-    // background-image: url(images/greyfloral_@2X.png);
-    &:first-child{
-        padding-top: 0px;
-    }
-    &:last-child{
-        padding-bottom: 0px
-    }
-    div{
-        // border: 1px solid blue;
-        position: relative;
-        background-attachment: fixed;
-        width: 100%;
-        height: 100%;
-        padding-top: 105%;
-        margin-right:20px;
-        background:no-repeat fixed;
-        background-position: 320px 0px;
-        background-size: contain;
-        //  &:nth-child(2n){
-        //     background-color: F7F7F7;
-        // }
-
-    }
-}
-
-// // INSERT PHOTOS HERE
-
-//     .cover{
-//         background-image: url(../images/bookpage.jpg);
-//     }
-//     .page1{
-//         background-image: url(../images/bookpage01.jpg);
-
-//     }
-//     .page2{
-//         background-image: url(../images/bookpage02.jpg);
-//         background-position: 330px 0px;
-
-//     }
-//     .page3{
-//         background-image: url(../images/bookpage03.jpg);
-//     }
-//     .page4{
-//         background-image: url(../images/bookpage04.jpg);
-//     }
-//     .page5{
-//         background-image: url(../images/bookpage05.jpg);
-//     }
-//     .page6{
-//         background-image: url(../images/bookpage06.jpg);
-//     }
-//     .page7{
-//         background-image: url(../images/bookpage07.jpg);
-//         background-position: 335px -10px;
-// }
-//     .page8{
-//         background-image: url(../images/bookpage08.jpg);
-//         background-position: 335px 0px;
-
-//     }
-
-// }
-
-//
-// DESCRITPIONS
-//
-
-//
-// helper-arrow to guide user to scroll
-//
-.helper-arrow{
-    display: block;
-    font-size: 110px;
-    font-weight: bold;
+.project-title{
+    font-size:50px;
     color: white;
-    opacity: .3;
-    position: absolute;
-    right: 16px;
-    bottom: 0px;
-    transition-property: opacity, bottom;
-    transition-duration: .4s, .3s;
-    transition-timing-function: linear;
-    &:hover{
-        opacity: .6;
-        color:white;
-        bottom: -12px;
-    }
+    margin: 0 0 0 0;
+    position: relative;
+    text-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.3);
 }
 
 .project-description{
@@ -250,45 +119,9 @@ a{
         left: 10%;
     }
 }
-.project-title{
-    font-size:50px;
-    color: white;
-    margin: 0 0 0 0;
-    position: relative;
-    text-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.3);
-}
 
-// NAV
-.cbp-fbscroller > nav {
-	position: fixed;
-	z-index: 9999;
-	right: 100px;
-	top: 50%;
-	width: 26px;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
+// BACKGROUND IMAGES
 
-.cbp-fbscroller > nav a {
-	display: block;
-	position: relative;
-	z-index: 9999;
-	color: transparent;
-	width: 26px;
-	height: 26px;
-	outline: none;
-	margin: 25px 0;
-	border-radius: 50%;
-	border: 4px solid #fff;
-}
-
-.cbp-fbscroller > nav a:hover {
-	background: rgba(255,255,255,0.6);
-}
-
-// PREVIEWS / BACKGROUND IMAGES
 .stories-photos{
     height: 100%;
     position: relative;
@@ -317,6 +150,16 @@ a{
     background-image: url(../images/optimized/previews/buddy-preview.jpg);
 }
 
+// DOWN ARROW
+.helper-arrow{
+    right: 16px;
+    bottom: 0px;
+    color: white;
+    &:hover{
+        color:white;
+        bottom: -12px;
+    }
+}
 
 
 
