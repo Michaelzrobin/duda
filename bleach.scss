@@ -23,7 +23,7 @@ html{
     opacity: .3;
     position: absolute;
     right: 33px;
-    bottom: 28;
+    bottom: 33px;
     z-index: 1;
     transition-property: opacity, bottom;
     transition-duration: .4s, .3s;
@@ -46,45 +46,45 @@ html{
     div{
         // border:1px solid blue;
         background-size: 60%;
-        height:100
+        height:100%
         // position: relative;
     }
 
     .cover{
         background-image: url(../images/optimized/bleach.jpg);
-        background-position: 395px 40px;
+        background-position: 75% 50%;
         position: relative;
 
 
     }
     .page1{
         background-image: url(../images/optimized/bleach02.jpg);
-        background-position: 395px 40px;
+        background-position: 75% 50%;
         // position: relative;
 
 
     }
     .page2{
         background-image: url(../images/optimized/bleach03.jpg);
-        background-position: 395px 35px;
+        background-position: 75% 48%;
         // position: relative;
 
     }
     .page3{
         background-image: url(../images/optimized/bleach04.jpg);
-        background-position: 395px 40px;
+        background-position: 75% 50%;
         // position: relative;
 
     }
     .page4{
         background-image: url(../images/optimized/bleach05.jpg);
-        background-position: 395px 20px;
+        background-position: 75% 48%;
         // position: relative;
 
     }
     .page5{
         background-image: url(../images/optimized/bleach06.jpg);
-        background-position: 395px 40px;
+        background-position: 75% 50%;
         // position: relative;
 
     }

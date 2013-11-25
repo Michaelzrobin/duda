@@ -2642,7 +2642,7 @@ a:hover {
   width: 100%;
 }
 .photos:first-child {
-  padding-top: 0px;
+  margin-top: 0px;
 }
 .photos:last-child {
   padding-bottom: 0px;
@@ -2652,10 +2652,9 @@ a:hover {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  padding-top: 105%;
   margin-right: 20px;
   background: no-repeat fixed;
-  background-position: 320px 0px;
+  background-position: 81% 0%;
   background-size: contain;
 }
 .photos .cover {
@@ -2666,7 +2665,7 @@ a:hover {
 }
 .photos .page2 {
   background-image: url(../images/optimized/buddy02.jpg);
-  background-position: 330px 0px;
+  background-position: 83% 0px;
 }
 .photos .page3 {
   background-image: url(../images/optimized/buddy03.jpg);
@@ -2682,9 +2681,9 @@ a:hover {
 }
 .photos .page7 {
   background-image: url(../images/optimized/buddy07.jpg);
-  background-position: 335px -10px;
+  background-position: 83% -1%;
 }
 .photos .page8 {
-  background-image: url(../images/bookpage08.jpg);
-  background-position: 335px 0px;
+  background-image: url(../images/optimized/buddy08.jpg);
+  background-position: 83% 0%;
 }

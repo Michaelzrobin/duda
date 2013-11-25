@@ -2703,6 +2703,7 @@ a:hover {
   color: white;
   margin: 0 0 0 0;
   position: relative;
+  text-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.3);
 }
 
 .cbp-fbscroller > nav {
