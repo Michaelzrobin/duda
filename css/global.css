@@ -2725,6 +2725,7 @@ a:hover {
   color: black;
   opacity: .6;
   transition: .5s;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .fixed a:hover {
   font-family: helvetica;
@@ -2810,4 +2811,22 @@ a:hover {
   opacity: .6;
   bottom: 25;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 320px) {
+  .sidr {
+    width: 48%;
+    font-size: 2.1em;
+  }
+  .sidr ul {
+    margin: 50px 0 0 12px;
+  }
+  .sidr ul li {
+    margin-bottom: 1em;
+  }
+
+  .fixed {
+    margin-top: 13.5%;
+    margin-left: -30px;
+  }
 }

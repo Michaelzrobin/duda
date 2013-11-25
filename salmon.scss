@@ -10,22 +10,11 @@ html{
 }
 
 .helper-arrow{
-    display: block;
-    font-size: 110px;
-    font-weight: bold;
-    color: black;
-    opacity: .3;
-    position: absolute;
     right: 5px;
     bottom: 52;
     z-index: 1;
-    transition-property: opacity, bottom;
-    transition-duration: .4s, .3s;
-    transition-timing-function: linear, ease-in;
     &:hover{
-        opacity: .6;
         bottom: 42;
-        cursor: pointer;
     }
 }
 // SALMON
@@ -107,3 +96,19 @@ body{
 
     }
 }
+/* 320 and */
+@media only screen and (max-width: 320px) {
+.photos{
+    div{
+        width: 100%;
+        height: 100%;
+        background-size: 80%;
+    }
+}
+
+
+
+}
+
+
+
